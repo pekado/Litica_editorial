@@ -1,0 +1,33 @@
+
+.post {
+  width: 300px;
+  border: 25px solid gray;
+  padding: 25px;
+  margin: 25px;
+  height: 300px;
+
+}
+
+.nav{
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding:10px;
+}
+
+table{
+	text-align: center;
+}
+
+header {
+	font-size: 76px;
+}
