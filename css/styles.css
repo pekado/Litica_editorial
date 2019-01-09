@@ -1,7 +1,7 @@
 
 .post {
   width: 300px;
-  border: 25px solid gray;
+  border: 15px solid gray;
   padding: 25px;
   margin: 25px;
   height: 300px;
@@ -9,7 +9,7 @@
 }
 
 .nav{
-    border:1px solid #ccc;
+   
     border-width:1px 0;
     list-style:none;
     margin:0;
@@ -21,7 +21,8 @@
 }
 .nav a{
     display:inline-block;
-    padding:10px;
+   margin: 20px;
+
 }
 
 table{
@@ -30,4 +31,14 @@ table{
 
 header {
 	font-size: 76px;
+}
+
+img{
+  height: 200px;
+  margin-top: 40px;
+  width: 160px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+
 }
