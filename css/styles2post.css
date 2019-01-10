@@ -1,5 +1,5 @@
 html{
-	font-family: Bookman;
+	font-family: "Merriweather",serif;
 }
 
 img{
@@ -19,4 +19,33 @@ h1{
 text-align: center;
 font-style: italic;
 margin-top: 40px;
+}
+
+article {
+	text-align: center;
+	font-size: 24px;
+}
+
+.cuerpo{
+	margin: 40px; 
+	padding: 40px;
+}
+
+.separador{
+	width: 40px;
+}
+
+.autor{
+	height: 200px;
+	margin-top: 60px;
+	width: 160px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%;
+
+}
+
+p {
+	text-align: center;
+	font size: 18px;
 }
