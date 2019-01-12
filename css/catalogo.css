@@ -1,6 +1,7 @@
 
 html{
-  font-family: Palatino
+  font-family: Palatino;
+  color: dimgray;
 
 }
 
@@ -45,4 +46,32 @@ a:link
 {
 text-decoration:none;
 }
+
+.listacatalogo{
+   float: left;
+width: 100%;
+margin-bottom: 20px;
+padding-bottom: 20px;
+border-bottom: 1px solid #E5E5E5;
+
+}
+
+div .catalogocontenido{
+    width: 400px;
+    height: 250px;
+    
+    
+}
+
+div .fototitulo{
+ height: 200px;
+ width: 30%;
+float: left;
+padding-left: 10%;
+padding-right: 10%;
+border-radius: 20%;
+border-style: groove;
+}
+
+
 

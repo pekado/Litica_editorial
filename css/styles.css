@@ -1,6 +1,8 @@
 
 html{
-  font-family: Palatino
+  font-family: Palatino;
+  color: dimgray;
+
 
 }
 
@@ -42,7 +44,8 @@ header {
   height: 200px;
   display: inline-table;
   border: 5px gray;
-
+  position: static;
+  margin: 0px auto;
 
 }
 
@@ -88,7 +91,11 @@ header {
 
 .arti
 {
-  margin: 130px;
+  display: table;
+  width: 80%;
+  margin: 0px auto;
+  text-align: center;
+  margin-top: 30px;
  
 }
 
