@@ -54,24 +54,56 @@ margin-bottom: 20px;
 padding-bottom: 20px;
 border-bottom: 1px solid #E5E5E5;
 
+
 }
 
 div .catalogocontenido{
-    width: 400px;
+    width: 100%;
     height: 250px;
+    border-bottom: 2px solid #E5E5E5;
+    text-align: center;
+
     
     
 }
 
 div .fototitulo{
  height: 200px;
- width: 30%;
+ width: 25%;
 float: left;
-padding-left: 10%;
-padding-right: 10%;
-border-radius: 20%;
 border-style: groove;
+margin-left: 3%;
+
 }
 
+.anomia{
+ height: 150px;
+ width: 25%;
+float: left;
+border-style: groove;
+margin-left: 3%;
 
 
+}
+
+.titulo{
+    text-align: center;
+    border-bottom: 2px solid #E5E5E5;
+    padding: 3%;
+}
+
+.nombretitulo{
+    text-align: center;
+    width: 880px;
+    margin-top: 3%;
+    
+}
+
+.rizoma{
+ height: 210px;
+ width: 35%;
+float: left;
+border-style: groove;
+margin-left: 3%;
+
+}
