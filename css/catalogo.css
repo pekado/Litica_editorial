@@ -7,12 +7,12 @@ html{
 
 
 header {
-    font-size: 76px;
+    font-size: 6.2vw;
 }
 
 .nav{
    
-    border-width:1px 0;
+    border-width:0.08vw 0;
     list-style:none;
     margin:0;
     padding:0;
@@ -23,19 +23,20 @@ header {
 }
 .nav a{
     display:inline-block;
-    margin: 20px;
+    margin: 1.6vw;
 
 }
 
 .logo{
-  height: 200px;
-  margin-top: 40px;
-  width: 160px;
+  height: 16.2vw;
+  margin-top: 2.7vw;
+  width: 13vw;
   margin-right: auto;
   margin-left: auto;
   display: block;
 
 }
+
 
 a{
   color: dimgray;
@@ -47,63 +48,51 @@ a:link
 text-decoration:none;
 }
 
-.listacatalogo{
-   float: left;
-width: 100%;
-margin-bottom: 20px;
-padding-bottom: 20px;
-border-bottom: 1px solid #E5E5E5;
-
-
+.container {
+  position: relative;
+  width: 100%;
+  display: inline-table;
+  border-bottom: 1px solid #E5E5E5;
 }
 
-div .catalogocontenido{
-    width: 100%;
-    height: 250px;
-    border-bottom: 2px solid #E5E5E5;
-    text-align: center;
-
-    
-    
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  border-style: groove;
 }
 
-div .fototitulo{
- height: 200px;
- width: 25%;
-float: left;
-border-style: groove;
-margin-left: 3%;
-
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
 }
 
-.anomia{
- height: 150px;
- width: 25%;
-float: left;
-border-style: groove;
-margin-left: 3%;
+.container:hover .image {
+  opacity: 0.3;
+}
 
+.container:hover .middle {
+  opacity: 1;
+}
 
+.text {
+  
+  color: black;
+  font-size: 1.3vw;
+  padding: 1.3vw 2.6vw;
+  text-align: justify;
 }
 
 .titulo{
-    text-align: center;
-    border-bottom: 2px solid #E5E5E5;
-    padding: 3%;
+  text-align: center;
+  
 }
 
-.nombretitulo{
-    text-align: center;
-    width: 880px;
-    margin-top: 3%;
-    
-}
-
-.rizoma{
- height: 210px;
- width: 35%;
-float: left;
-border-style: groove;
-margin-left: 3%;
-
-}
