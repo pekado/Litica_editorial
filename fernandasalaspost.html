@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Lítica editorial</title>
+  <meta name="Benja" content="">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link href="css/fsalaspost.css" rel="stylesheet">
+  
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+  <script type="text/javascript" src="js/slider.js"></script>
+
+</head>
+
+<body>
+
+
+  <header>
+    <img class="logo" src="images/liticalogo.png" alt="Lítica">
+    
+  </header>
+<hr>
+
+  <ul class="nav">
+  <li><a href="catalogo.html">Catálogo</a></li>
+  <li><a href=>Nosotros</a></li>
+  <li><a href="manifiesto.html">Manifiesto</a></li>
+  
+</ul>
+
+<hr>
+<div class="w3-content w3-display-container">
+<img class="mySlides" src="images/seleccionfsalas/_MG_6637.jpeg">
+<img class="mySlides" src="images/seleccionfsalas/_MG_6647.jpeg">
+<img class="mySlides" src="images/seleccionfsalas/_MG_6659.jpeg">
+<img class="mySlides" src="images/seleccionfsalas/_MG_6667 (1).jpeg">
+<img class="mySlides" src="images/seleccionfsalas/_MG_6685.jpeg">
+<img class="mySlides" src="images/seleccionfsalas/_MG_6740.jpeg">
+<img class="mySlides" src="images/seleccionfsalas/_MG_6781.jpeg">
+<img class="mySlides" src="images/seleccionfsalas/_MG_6798.jpeg">
+<img class="mySlides" src="images/seleccionfsalas/_MG_6810.jpeg">
+<img class="mySlides" src="images/seleccionfsalas/_MG_6830 (1).jpeg">
+<img class="mySlides" src="images/seleccionfsalas/_MG_7225.jpeg">
+<img class="mySlides" src="images/seleccionfsalas/_MG_7251.jpeg">
+<img class="mySlides" src="images/seleccionfsalas/_MG_7308.jpeg">
+<img class="mySlides" src="images/seleccionfsalas/_MG_7315.jpeg">
+<img class="mySlides" src="images/seleccionfsalas/_MG_7395.jpeg">
+<img class="mySlides" src="images/seleccionfsalas/_MG_7467.jpeg">
+<img class="mySlides" src="images/seleccionfsalas/portadapost.jpeg">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+<script>
+  $(document).keydown(function(e) {
+    switch(e.which) {
+        case 37: // left
+        plusDivs(-1)
+        break;
+
+        case 38: // up
+        
+        break;
+
+        case 39: // right
+        plusDivs(1)
+        break;
+
+        case 40: // down
+        break;
+
+        default: return; // exit this handler for other keys
+    }
+    e.preventDefault(); // prevent the default action (scroll / move caret)
+});
+</script>
+
+</body>
+
+</html>
