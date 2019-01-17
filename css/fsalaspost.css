@@ -48,9 +48,9 @@ text-decoration:none;
 
 .mySlides{
   height: 40vw;
-  border: 1px solid;
-  padding: 10px;
-  box-shadow: 5px 10px 18px #888888;
+  border: 0.08vw solid;
+  padding: 0.81vw;
+  box-shadow: 0.4vw 0.81vw 1.46vw #888888;
   display: block;
   margin: 0vw auto;
   margin-top: 3vw;
@@ -95,7 +95,7 @@ text-decoration:none;
 
 border: none;
 display: inline-block;
-padding: 8px 16px;
+padding: 0.65vw 1.3vw;
 vertical-align: middle;
 overflow: hidden;
 text-decoration: none;
@@ -111,13 +111,14 @@ white-space: pre-wrap;
 
 .autor{
   height: 16.2vw;
-  margin-top: 4vw;
+  margin-top: 3vw;
   width: 13vw;
-  margin-left: 10%;
+  margin-left: 20%;
   margin-bottom: 5%;
   border-radius: 100%;
   border:0.24vw solid gray;
   float: left;
+  margin-right: 1vw;
 }
 
 .cuerpo{
@@ -153,8 +154,26 @@ white-space: pre-wrap;
   float: left;
 }
 
+.bio{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 100%;
+  height: auto;
+  padding-top: 2vw;
+  
+}
 
-
-
+.textobio {
+  
+  font-size: 1.5vw;
+  margin-top: 4vw;
+  vertical-align: sub;
+  display: block;
+  position: relative;
+  padding-top: 4vw;
+  padding-left: 1vw;
+  
+}
 
 

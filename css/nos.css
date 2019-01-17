@@ -33,7 +33,7 @@ header {
   margin-right: auto;
   margin-left: auto;
   display: block;
-
+  text-justify:auto;
 }
 
 a{
@@ -46,3 +46,15 @@ a:link
 text-decoration:none;
 }
 
+.cuerpo{
+  margin: 3.2vw; 
+  padding: 3.2vw;
+  width: 50%;
+  align-content: center;
+  display: block;
+  margin-left:  auto;
+  margin-right:  auto;
+  text-align: justify;
+  font-size: 1.5vw;
+
+}
