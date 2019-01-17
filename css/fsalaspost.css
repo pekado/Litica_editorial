@@ -6,12 +6,12 @@ html{
 
 
 header {
-    font-size: 76px;
+    font-size: 6.2vw;
 }
 
 .nav{
    
-    border-width:1px 0;
+    border-width:0.08vw 0;
     list-style:none;
     margin:0;
     padding:0;
@@ -22,14 +22,14 @@ header {
 }
 .nav a{
     display:inline-block;
-    margin: 20px;
+    margin: 1.6vw;
 
 }
 
 .logo{
-  height: 200px;
-  margin-top: 40px;
-  width: 160px;
+  height: 16.2vw;
+  margin-top: 2.7vw;
+  width: 13vw;
   margin-right: auto;
   margin-left: auto;
   display: block;
@@ -85,6 +85,8 @@ text-decoration:none;
 {
   max-width:79.6vw;
   margin: 0vw auto;
+  padding-bottom: 5%;
+  border-bottom: 0.16vw solid #E5E5E5;
 }
 
 
@@ -106,5 +108,53 @@ white-space: pre-wrap;
 
 .w3-black,.w3-hover-black:hover
 {color:#fff!important;background-color:#000!important}
+
+.autor{
+  height: 16.2vw;
+  margin-top: 4vw;
+  width: 13vw;
+  margin-left: 10%;
+  margin-bottom: 5%;
+  border-radius: 100%;
+  border:0.24vw solid gray;
+  float: left;
+}
+
+.cuerpo{
+
+  font-size: 2vw;
+  text-align: justify;
+  text-justify:auto;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 5%;
+}
+
+.titulo{
+  text-align: center;
+  margin-right: 20%;
+  margin-left: 20%;
+  text-justify:inter-word;
+  font-size: 3vw;
+}
+
+.container{
+  margin-top: 5%;
+}
+
+.entrada{
+    height: 16.2vw;
+  margin-top: 4vw;
+  width: 13vw;
+  
+  margin-bottom: 5%;
+  
+  
+  float: left;
+}
+
+
+
+
 
 

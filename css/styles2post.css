@@ -19,16 +19,25 @@ h1{
 text-align: center;
 font-style: italic;
 margin-top: 3.2vw;
+margin-left:  auto;
+	margin-right:  auto;
 }
 
 article {
 	text-align: center;
 	font-size: 1.95vw;
+	
 }
 
 .cuerpo{
 	margin: 3.2vw; 
 	padding: 3.2vw;
+	width: 50%;
+	align-content: center;
+	display: block;
+	margin-left:  auto;
+	margin-right:  auto;
+
 }
 
 .separador{
@@ -37,17 +46,32 @@ article {
 
 .autor{
 	height: 16.2vw;
-	margin-top: 4vw;
-	width: 13vw;
-	margin-left: auto;
-	margin-right: auto;
-	border-radius: 50%;
-	border:0.24vw solid gray;
+  margin-top: 4vw;
+  width: 13vw;
+  margin-left: 10%;
+  margin-bottom: 5%;
+  border-radius: 100%;
+  border:0.24vw solid gray;
+  float: left;
 
 }
 
 p {
 	text-align: center;
 	font size: 1.5vw;
-	margin: 4vw;
+	
+	display: block;
+}
+
+.entrada{
+    height: 16.2vw;
+  margin-top: 4vw;
+  width: 13vw;
+  margin-bottom: 5%; 
+  float: left;
+
+}
+
+.todo{
+	border-bottom: 0.16vw solid #E5E5E5;
 }
