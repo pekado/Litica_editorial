@@ -89,6 +89,7 @@ text-decoration:none;
   font-size: 1.3vw;
   padding: 1.3vw 2.6vw;
   text-align: justify;
+  background:rgba(255,255,255, 0.8);
 }
 
 .titulo{
