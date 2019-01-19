@@ -30,17 +30,27 @@ article {
 }
 
 .cuerpo{
-  margin: 3.2vw; 
-  padding: 3.2vw;
+ 
   width: 50%;
   align-content: center;
-  display: block;
+  
   margin-left:  auto;
   margin-right:  auto;
   text-align: justify;
+  
 
 }
 
+.dialogo{
+
+  width: 50%;
+  
+  
+  margin-left:  auto;
+  margin-right:  auto;
+  
+  padding-left: 5%;
+}
 .nav{
    
     border-width:0.08vw 0;
@@ -77,17 +87,7 @@ article {
 
 }
 
-p {
-  
-  font-size: 1.5vw;
-  margin-top: 4vw;
-  vertical-align: sub;
-  display: block;
-  position: relative;
-  padding-top: 4vw;
-  padding-left: 1vw;
-  
-}
+
 
 .entrada{
     height: 16.2vw;
@@ -111,6 +111,17 @@ a:link
 {
 text-decoration:none;
 }
+
+.textautor{
+  font-size: 1.5vw;
+margin-top: 4vw;
+vertical-align: sub;
+display: block;
+position: relative;
+padding-top: 4vw;
+padding-left: 1vw;
+}
+
 
 .bio{
   margin-left: auto;
