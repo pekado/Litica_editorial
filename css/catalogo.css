@@ -17,6 +17,7 @@ header {
     margin:0;
     padding:0;
     text-align:center;
+    font-size: 2vw;
 }
 .nav li{
     display:inline;
@@ -30,7 +31,6 @@ header {
 .logo{
   height: 16.2vw;
   margin-top: 2.7vw;
-  width: 13vw;
   margin-right: auto;
   margin-left: auto;
   display: block;
@@ -86,7 +86,7 @@ text-decoration:none;
 .text {
   
   color: black;
-  font-size: 0.5vw;
+  font-size: 1.3vw;
   padding: 1.3vw 2.6vw;
   text-align: justify;
   background:rgba(255,255,255, 0.8);

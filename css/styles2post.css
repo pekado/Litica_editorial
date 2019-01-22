@@ -5,7 +5,6 @@ html{
 img{
 	height: 16.2vw;
 	margin-top: 3.2vw;
-	width: 13vw;
 	margin-right: auto;
 	margin-left: auto;
 	display: block;
@@ -13,12 +12,13 @@ img{
 }
 
 
-h1{
+.titulo{
 text-align: center;
 font-style: italic;
-margin-top: 3.2vw;
+margin-top: 6vw;
 margin-left:  auto;
-	margin-right:  auto;
+margin-right:  auto;
+font-size: 3vw;
 }
 
 article {
@@ -45,6 +45,7 @@ article {
     margin:0;
     padding:0;
     text-align:center;
+    font-size: 2vw;
 }
 .nav li{
     display:inline;
@@ -63,7 +64,7 @@ article {
 .autor{
 	height: 16.2vw;
   margin-top: 3vw;
-  width: 13vw;
+
   margin-left: 20%;
   margin-bottom: 5%;
   border-radius: 100%;
@@ -88,7 +89,7 @@ p {
 .entrada{
     height: 16.2vw;
   margin-top: 4vw;
-  width: 13vw;
+
   margin-bottom: 5%; 
   float: left;
 
