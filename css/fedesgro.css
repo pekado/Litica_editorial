@@ -30,13 +30,14 @@ article {
 }
 
 .cuerpo{
- 
+ font-size: 1.5vw;
   width: 50%;
   align-content: center;
   text-indent: 5%;
   margin-left:  auto;
   margin-right:  auto;
   text-align: justify;
+  margin-top: 5%;
   
 
 }
