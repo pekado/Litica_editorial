@@ -9,6 +9,7 @@ html{
 
 header {
     font-size: 6.2vw;
+    
 }
 
 .nav{
@@ -89,7 +90,7 @@ text-decoration:none;
 .text {
   
   color:  gray;
-  font-size: 3.9vw;
+  font-size: 3.5vw;
   padding: 1.3vw 2.6vw;
   text-shadow: 2px 2px white;
    font-weight: bold;

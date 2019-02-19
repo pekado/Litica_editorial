@@ -13,6 +13,12 @@ html{
 }
 
 
+.especial{
+  width: 50%;
+  margin-left: 25%;
+  text-align: center;
+}
+
 .titulo{
 float: right;
 font-style: italic;
