@@ -195,16 +195,16 @@ margin-top: 4vw;
 vertical-align: sub;
 display: block;
 position: relative;
-padding-top: 4vw;
+padding-top: 2vw;
 padding-left: 1vw;
 }
 
 
 .bio{
-  margin-left: auto;
+  margin-left: 10%;
   margin-right: auto;
   display: block;
-  width: 100%;
+  width: 70%;
   height: auto;
   padding-top: 2vw;
   
