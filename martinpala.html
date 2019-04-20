@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Lítica editorial</title>
+  <meta name="Benja" content="">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link href="css/martin.css" rel="stylesheet">
+  
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+  <script type="text/javascript" src="js/slider.js"></script>
+
+</head>
+
+<body>
+
+
+  <header><a href="index.html">
+    <img class="logo" src="images/liticalogo.png" alt="Lítica">
+    </a>
+  </header>
+  <hr>
+
+  <ul class="nav">
+    
+    <li><a href="catalogo.html">Catálogo</a></li>
+    <li><a href="nostros.html">Nosotros</a></li>
+    <li><a href="manifiesto.html">Manifiesto</a></li>
+  
+  </ul>
+
+  <hr>
+  <div class="container">
+    <div>
+      <img class="entrada" src="images/logomano.jpg">
+      <div class="texto">
+        <h2 class="titulo">
+          Barrio
+
+        </h2>
+        <p class="cuerpo">
+          Aveces pienso que estoy en un pequeñísimo punto perdido en el inmenso mapamundi. Que la vida se desarrolla absurdamente y que nuestros días quedan olvidados en la eterna paradoja humana. El espacio que habitamos es complejo, no podría ser de otra forma. Está cargado de dualidades, como nosotros. Respira y muere. 
+          <br><br>El barrio, inconmovible al paso del tiempo, tierra de soñadores y de vencidos, una esfera brillante llena de misterios, amores, de venganza, de fuego y de mucho humo.
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+      <div class="w3-content w3-display-container">
+        <img class="mySlides" src="images/martinpala/2.jpg">
+        <img class="mySlides" src="images/martinpala/5.jpg">
+        <img class="mySlides" src="images/martinpala/9.jpg">
+        <img class="mySlides" src="images/martinpala/15.jpg">
+        <img class="mySlides" src="images/martinpala/16.jpg">
+        <img class="mySlides" src="images/martinpala/21.jpg">
+        <img class="mySlides" src="images/martinpala/23.jpg">
+        <img class="mySlides" src="images/martinpala/25.jpg">
+        <img class="mySlides" src="images/martinpala/26.jpg">
+        <img class="mySlides" src="images/martinpala/27.jpg">
+        <img class="mySlides" src="images/martinpala/30.jpg">
+        <img class="mySlides" src="images/martinpala/33.jpg">
+        <img class="mySlides" src="images/martinpala/35.jpg">
+        <img class="mySlides" src="images/martinpala/36.jpg">
+        <img class="mySlides" src="images/martinpala/40.jpg">
+        <img class="mySlides" src="images/martinpala/43.jpg">
+        <img class="mySlides" src="images/martinpala/44.jpg">
+
+        <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+      </div>
+
+
+
+  <div class="bio">
+    <img class="autor" src="images/martinpala/11403485_10153464717948259_871495885225207187_n.jpg">
+    <p class="textobio">
+     
+      Martín Palaminuta, nací en Buenos Aires. <br>
+      Estudié fotografía en UNSAM, donde se banca fuerte la educación popular.<br>
+      Hoy viajo por Europa como mochilero, con mi cámara y sin fecha de retorno.<br>
+ 
+    </p>
+  </div>
+
+    <script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      x[slideIndex-1].style.display = "block";  
+    }
+    </script>
+    <script>
+      $(document).keydown(function(e) {
+        switch(e.which) {
+            case 37: // left
+            plusDivs(-1)
+            break;
+
+            case 38: // up
+            
+            break;
+
+            case 39: // right
+            plusDivs(1)
+            break;
+
+            case 40: // down
+            break;
+
+            default: return; // exit this handler for other keys
+        }
+        e.preventDefault(); // prevent the default action (scroll / move caret)
+    });
+    </script>
+
+</body>
+
+</html>

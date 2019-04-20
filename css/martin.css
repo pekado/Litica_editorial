@@ -1,0 +1,179 @@
+
+html{
+  font-family: Palatino
+
+}
+
+
+header {
+    font-size: 6.2vw;
+}
+
+.nav{
+   
+    border-width:0.08vw 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    margin: 1.6vw;
+
+}
+
+.logo{
+  height: 16.2vw;
+  margin-top: 2.7vw;
+  width: 13vw;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+
+}
+
+a{
+  color: dimgray;
+
+}
+
+a:link
+{
+text-decoration:none;
+}
+
+.mySlides{
+  height: 40vw;
+  border: 0.08vw solid;
+  padding: 0.81vw;
+  box-shadow: 0.4vw 0.81vw 1.46vw #888888;
+  display: block;
+  margin: 0vw auto;
+  margin-top: 3vw;
+}
+
+.w3-display-left{
+  position:absolute;
+  top:50%;
+  left:0%;
+  transform:translate(0%,-50%);
+  -ms-transform:translate(-0%,-50%)
+}
+
+.w3-display-right{
+  position:absolute;
+  top:50%;
+  right:0%;
+  transform:translate(0%,-50%);
+  -ms-transform:translate(0%,-50%)
+}
+
+
+
+.w3-display-container
+{
+  position:relative
+
+  }
+
+
+.w3-content
+{
+  max-width:79.6vw;
+  margin: 0vw auto;
+  padding-bottom: 5%;
+  border-bottom: 0.16vw solid #E5E5E5;
+}
+
+
+.w3-btn, .w3-button
+{
+
+border: none;
+display: inline-block;
+padding: 0.65vw 1.3vw;
+vertical-align: middle;
+overflow: hidden;
+text-decoration: none;
+color: inherit;
+background-color: inherit;
+text-align: center;
+cursor: pointer;
+white-space: pre-wrap;
+}
+
+.w3-black,.w3-hover-black:hover
+{color:#fff!important;background-color:#000!important}
+
+.autor{
+  height: 16.2vw;
+  margin-top: 3vw;
+  width: 13vw;
+  margin-left: 20%;
+  margin-bottom: 5%;
+  border-radius: 100%;
+  border:0.24vw solid gray;
+  float: left;
+  margin-right: 1vw;
+}
+
+.cuerpo{
+
+  font-size: 1.9vw;
+  text-align: justify;
+  text-justify:auto;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 5%;
+}
+
+.titulo{
+  text-align: center;
+  margin-right: 20%;
+  margin-left: 20%;
+  text-justify:inter-word;
+  font-size: 3vw;
+}
+
+.container{
+  margin-top: 5%;
+}
+
+.entrada{
+    height: 16.2vw;
+  margin-top: 4vw;
+  width: 13vw;
+  
+  margin-bottom: 5%;
+  
+  
+  float: left;
+}
+
+.bio{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 100%;
+  height: auto;
+  padding-top: 2vw;
+  
+}
+
+.textobio {
+  
+  font-size: 1.5vw;
+  margin-top: 4vw;
+  vertical-align: sub;
+  display: block;
+  position: relative;
+  padding-top: 4vw;
+  padding-left: 1vw;
+  
+}
+
+
