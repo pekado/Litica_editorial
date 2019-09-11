@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Lítica editorial</title>
+    <meta name="Benja" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link href="css/softieb.css" rel="stylesheet">
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <script type="text/javascript" src="js/slider.js"></script>
+
+</head>
+
+<body>
+
+
+    <header><a href="http://www.litica.xyz/index.html">
+            <img class="logo" src="images/liticalogo.png" alt="Lítica">
+        </a>
+
+    </header>
+
+    <hr>
+    <ul class="nav">
+        <li><a href="http://www.litica.xyz/catalogo.html">Catálogo</a></li>
+        <li><a href="http://www.litica.xyz/nostros.html">Nosotros</a></li>
+        <li><a href="http://www.litica.xyz/manifiesto.html">Manifiesto</a></li>
+
+    </ul>
+    <hr>
+
+
+
+    <div class="container">
+        <div>
+            <img class="entrada" src="images/logomano.jpg">
+            <div class="texto">
+                <h2 class="titulo">
+                    Cecilia Huberman
+
+                </h2>
+                <p class="cuerpo">
+                        Las figuras que se escapan del día son atrapadas por una estela que recorre las calles,
+                        la pequeña luminiscencia que advierte al resto de un viajante es la que crea y sostiene 
+                        el canal de comunicación, visual sobre el papel fotosensible, entre los seres del día y 
+                        los seres de la noche. Basta con aguantar la respiración y contar los pasos para enfocar,
+                        obteniendo un solo elemento y descartando lo demás, sin segundos planos ni fuera de foco, 
+                        la absoluta negación como borde finito o infinito.<br>
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="w3-content w3-display-container">
+        <img class="mySlides" src="images/huberman/00.jpg">
+        <img class="mySlides" src="images/huberman/01.jpg" />
+        <img class="mySlides" src="images/huberman/02.jpg" />
+
+        <img class="mySlides" src="images/huberman/03.jpg" />
+        <img class="mySlides" src="images/huberman/04.jpg" />
+        <img class="mySlides" src="images/huberman/05.jpg" />
+        <img class="mySlides" src="images/huberman/06.jpg" />
+        <img class="mySlides" src="images/huberman/07.jpg" />
+        <img class="mySlides" src="images/huberman/08.jpg" />
+        <img class="mySlides" src="images/huberman/09.jpg" />
+        <img class="mySlides" src="images/huberman/10.jpg" />
+        <img class="mySlides" src="images/huberman/11.jpg" />
+        <img class="mySlides" src="images/huberman/12.jpg" />
+        <img class="mySlides" src="images/huberman/13.jpg" />
+        <img class="mySlides" src="images/huberman/14.jpg" />
+        <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+    </div>
+
+    <div class="bio">
+        <img class="autor" style="width: 20vw" src="images/chechi.jpg" />
+        <p class="textobio">
+                Cecilia Huberman es arquitecta.<br>
+                Se interesa en la representación de Arquitectura y las Artes Visuales.<br>
+                Saca fotos de noche con la luz de su bicicleta.<br>
+        </p>
+        </div>
+       <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+        showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        if (n > x.length) {slideIndex = 1}
+        if (n < 1) {slideIndex=x.length} for (i=0; i < x.length; i++) { x[i].style.display="none" ; }
+            x[slideIndex-1].style.display="block" ; } </script> <script>
+                $(document).keydown(function (e) {
+                    switch (e.which) {
+                        case 37: // left
+                            plusDivs(-1)
+                            break;
+
+                        case 38: // up
+
+                            break;
+
+                        case 39: // right
+                            plusDivs(1)
+                            break;
+
+                        case 40: // down
+                            break;
+
+                        default: return; // exit this handler for other keys
+                    }
+                    e.preventDefault(); // prevent the default action (scroll / move caret)
+                });
+            </script>
+</body>
+
+</html>
+
+

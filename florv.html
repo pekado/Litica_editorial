@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Lítica editorial</title>
+    <meta name="Benja" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link href="css/softieb.css" rel="stylesheet">
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <script type="text/javascript" src="js/slider.js"></script>
+
+</head>
+
+<body>
+
+
+    <header><a href="http://www.litica.xyz/index.html">
+            <img class="logo" src="images/liticalogo.png" alt="Lítica">
+        </a>
+
+    </header>
+
+    <hr>
+    <ul class="nav">
+        <li><a href="http://www.litica.xyz/catalogo.html">Catálogo</a></li>
+        <li><a href="http://www.litica.xyz/nostros.html">Nosotros</a></li>
+        <li><a href="http://www.litica.xyz/manifiesto.html">Manifiesto</a></li>
+
+    </ul>
+    <hr>
+
+
+
+    <div class="container">
+        <div>
+            <img class="entrada" src="images/logomano.jpg">
+            <div class="texto">
+                <h2 class="titulo">
+                    Flor V
+
+                </h2>
+                <p class="cuerpo">
+                    Envolverse un una ola, oír los rumores de la espuma, sentir la sal corroer la piel muerta, ahogar el
+                    llanto en un profundo azul y saber que sobre nosotros un espejo refleja a los presos de la luz. Una
+                    foto perfecta separada en un viaje relámpago, con sus postales dispersas nos engañamos en un solo
+                    recuerdo, el que nos permite recrear, así sea necesario, el camino recorrido. Así, estas fotografías
+                    hacen de nuestro año una servilleta húmeda, olvidada en medio del llanto y, aturdidos por la belleza
+                    del mar, un risa se escapa de nuestra boca.<br>
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="w3-content w3-display-container">
+        <img class="mySlides" src="images/florv/flor v 1 -AA005 copia.jpg" />
+        <img class="mySlides" src="images/florv/flor v --AA002 copia.jpg">
+
+        <img class="mySlides" src="images/florv/flor v 935 -AA001 copia.jpg" />
+
+        <img class="mySlides" src="images/florv/flor v 935 -AA016 copia.jpg" />
+        <img class="mySlides" src="images/florv/Flor viniarsky_01.jpg" />
+        <img class="mySlides" src="images/florv/Flor viniarsky_04.jpg" />
+        <img class="mySlides" src="images/florv/Flor viniarsky_05.jpg" />
+        <img class="mySlides" src="images/florv/Flor viniarsky_10.jpg" />
+        <img class="mySlides" src="images/florv/FLOR-V002.jpg" />
+        <img class="mySlides" src="images/florv/FLOR-V006.jpg" />
+        <img class="mySlides" src="images/florv/Florviniarsky_5.jpg" />
+        <img class="mySlides" src="images/florv/Florviniarsky_6.jpg" />
+        <img class="mySlides" src="images/florv/Florviniarsky_8.jpg" />
+        <img class="mySlides" src="images/florv/Florviniarsky_9.jpg" />
+        <img class="mySlides" src="images/florv/Florviniarsky_11.jpg" />
+        <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+    </div>
+
+    <div class="bio">
+        <img class="autor" src="images/florv/5d7852172eb80_florv.jpg" />
+        <p class="textobio">
+            Florencia Viniarsky (1995)<br>
+            estudiante en UNA de artes audiovisuales por tiempo indeterminado.<br>
+            escribo poesia y saco fotos en 35 mm. <br>
+        </p>
+    </div>
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = x.length
+            }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[slideIndex - 1].style.display = "block";
+        }
+    </script>
+    <script>
+        $(document).keydown(function (e) {
+            switch (e.which) {
+                case 37: // left
+                    plusDivs(-1)
+                    break;
+
+                case 38: // up
+
+                    break;
+
+                case 39: // right
+                    plusDivs(1)
+                    break;
+
+                case 40: // down
+                    break;
+
+                default:
+                    return; // exit this handler for other keys
+            }
+            e.preventDefault(); // prevent the default action (scroll / move caret)
+        });
+    </script>
+</body>
+
+</html>

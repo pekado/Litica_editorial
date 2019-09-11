@@ -1,0 +1,135 @@
+html{
+  font-family: Palatino;
+}
+
+img{
+  height: 16.2vw;
+  margin-top: 3.2vw;
+  width: 13vw;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+
+}
+
+
+h2{
+text-align: center;
+font-style: italic;
+margin-top: 6vw;
+margin-left:  auto;
+margin-right:  auto;
+
+font-size: 2.5vw;
+}
+
+article {
+  text-align: center;
+  font-size: 1.7vw;
+  
+}
+
+.cuerpo{
+ font-size: 1.5vw;
+  width: 50%;
+  align-content: center;
+  margin-left:  auto;
+  margin-right:  auto;
+  text-align: justify;
+  margin-top: 5%;
+  
+
+}
+
+.dialogo{
+
+  width: 50%;
+  
+  
+  margin-left:  auto;
+  margin-right:  auto;
+  
+  padding-left: 5%;
+}
+.nav{
+   
+    border-width:0.08vw 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    margin: 1.6vw;
+    font-size: 1.5vw;
+
+}
+
+
+.separador{
+  width: 3.2vw;
+}
+
+.autor{
+  height: 16.2vw;
+  margin-top: 3vw;
+  width: 20vw;
+  margin-left: 20%;
+  margin-bottom: 5%;
+  border-radius: 100%;
+  border:0.24vw solid gray;
+  float: left;
+  margin-right: 1vw;
+
+
+}
+
+
+
+.entrada{
+    height: 16.2vw;
+  margin-top: 4vw;
+  width: 13vw;
+  margin-bottom: 5%; 
+  float: left;
+
+}
+
+.todo{
+  border-bottom: 0.16vw solid #E5E5E5;
+}
+
+a{
+  color: dimgray;
+
+}
+
+a:link
+{
+text-decoration:none;
+}
+
+.textautor{
+  font-size: 1.5vw;
+margin-top: 4vw;
+vertical-align: sub;
+display: block;
+position: relative;
+padding-top: 4vw;
+padding-left: 1vw;
+}
+
+
+.bio{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 100%;
+  height: auto;
+  padding-top: 2vw;
+  
+}
